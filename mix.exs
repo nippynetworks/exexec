@@ -29,7 +29,7 @@ defmodule Exexec.MixProject do
 
   defp deps do
     [
-      {:erlexec, "~> 1.10"},
+      {:erlexec, "~> 1.10 or ~> 2.0"},
       {:ex_doc, "~> 0.20", only: :dev}
     ]
   end
